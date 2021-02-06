@@ -9,14 +9,14 @@ function Memes() {
 	const m = Math.floor(htmlMemes.length / 2);
 	const [left, right] = [htmlMemes.slice(0,m), htmlMemes.slice(m, htmlMemes.length)];
 
-	return (<div className="row scroll">
+	return (<div className="row">
 				<div className="col">
 					{left}
 				</div>
 				<div className="col">
 					{right}
 				</div>
-			</div>)
+			</div>);
 }
    
 

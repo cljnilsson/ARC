@@ -25,6 +25,8 @@ function App() {
 
 	const [allQuiz, setAllQuiz] = useState([]);
 	const memes = () => <Memes/>
+	const Info = () => <FAQ/>
+	const Vids = () => <Videos/>
 
 	return (
 		<div className="container">
@@ -43,7 +45,7 @@ function App() {
 				</div>
 				<AnimatedSwitch
 						atEnter={{ offset: -500 }}
-						atLeave={{ offset: -500 }}
+						atLeave={{ offset: 200 }}
 						atActive={{ offset: 0 }}
 						mapStyles={(styles) => ({
 						  transform: `translateX(${styles.offset}%)`,
@@ -52,8 +54,8 @@ function App() {
 				>
 					<Route exact path="/" render={AllQuiz} />
 					<Route exact path="/memes" render={memes} />
-					<Route exact path="/FAQ" render={FAQ} />
-					<Route exact path="/videos" render={Videos} />
+					<Route exact path="/FAQ" render={Info} />
+					<Route exact path="/videos" render={Vids} />
 				</AnimatedSwitch>
 			</Router>
 		</div>

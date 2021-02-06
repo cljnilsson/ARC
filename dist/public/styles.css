@@ -78,10 +78,15 @@ button {
 	padding-top: 15px;
 	box-shadow: 5px 5px 5px black;
 	min-height: 100vh;
+	height: 100%;
 }
 
-.scroll {
-	overflow-y: scroll;
+.table {
+	color: white;
+}
+
+.faq>p {
+	margin-bottom: 0;
 }
   
 .input {
