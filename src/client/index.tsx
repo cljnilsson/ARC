@@ -50,6 +50,8 @@ import "./public/queen-azshara.png";
 import "./public/unfinished.jpg";
 import "./public/raid.png";
 import "./public/raiding.png";
+import "./public/teena.png";
+import "./public/mplus.jpg"
 
 // Class Icons
 import "./public/dh.png";

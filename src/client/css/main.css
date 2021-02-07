@@ -79,6 +79,11 @@ button {
 	box-shadow: 5px 5px 5px black;
 	min-height: 100vh;
 	height: 100%;
+	position: fixed;
+	overflow-y:auto;
+	overflow-x: hidden;
+	left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .table {
@@ -94,6 +99,25 @@ button {
 	height: 100px;
 }
 
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: white; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: lightgrey; 
+  }
 
 .faq>p {
 	margin-bottom: 0;
@@ -118,22 +142,18 @@ button {
   ::-webkit-input-placeholder {
 	/* Chrome/Opera/Safari */
 	color: #343a40;
-  }
+}
   ::-moz-placeholder {
 	/* Firefox 19+ */
 	color: #343a40;
-  }
+}
   :-ms-input-placeholder {
 	/* IE 10+ */
 	color: #343a40;
-  }
+}
   :-moz-placeholder {
 	/* Firefox 18- */
 	color: #343a40;
-  }
-
-.center {
-	transform: translateX(25%);
 }
 
 @media only screen and (max-width: 768px) {
