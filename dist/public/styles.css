@@ -85,6 +85,16 @@ button {
 	color: white;
 }
 
+.greyscale {
+	filter: grayscale(100%);
+}
+
+.xpacLogo {
+	width: 200px;
+	height: 100px;
+}
+
+
 .faq>p {
 	margin-bottom: 0;
 }

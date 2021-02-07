@@ -18,6 +18,34 @@ import "./public/sludgefist.jpg";
 import "./public/stone-legion-generals.jpg";
 import "./public/sire-denathrius.jpg";
 
+// NYA boss icons
+import "./public/sl-logo.png";
+import "./public/bfa-logo.png";
+
+// NYA boss icons
+import "./public/wrathion.png";
+import "./public/maut.png";
+import "./public/skitra.png";
+import "./public/xanesh.png";
+import "./public/vexiona.png";
+import "./public/hivemind.png";
+import "./public/raden.png";
+import "./public/shadhar.png";
+import "./public/drestagath.png";
+import "./public/ilgynoth.png";
+import "./public/carapace.png";
+import "./public/nzoth.png";
+
+// EP boss icons
+import "./public/abyssal-commander-sivara.png";
+import "./public/blackwater-behemoth.png";
+import "./public/radiance-of-azshara.png";
+import "./public/lady-ashvane.png";
+import "./public/orgozoa.png";
+import "./public/queens-court.png";
+import "./public/zaqul.png";
+import "./public/queen-azshara.png";
+
 // Memes
 import "./public/unfinished.jpg";
 import "./public/raid.png";

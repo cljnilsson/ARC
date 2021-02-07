@@ -9,5 +9,5 @@ server_1.default.get("/", (req, res) => {
     res.sendfile("./dist/public/index.html");
 });
 server_1.default.get("/*", (req, res) => {
-    res.redirect("/");
+    res.sendfile("./dist/public/index.html");
 });

@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 });
 
 app.get("/*", (req, res) => {
-	res.redirect("/");
+	res.sendfile("./dist/public/index.html");
 });

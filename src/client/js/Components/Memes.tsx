@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Memes() {
-	let memes = ["raid.png", "raiding.png", "unfinished.jpg"];
+	let memes = ["raid.png", "raiding.png", "unfinished.jpg", "teena.png", "mplus"];
 
 	let htmlMemes = memes.map((c) => <div className="col text-center"><img className="meme" src={"/" + c} /></div>);
 
